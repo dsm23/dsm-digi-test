@@ -41,7 +41,7 @@ export default {
 	},
 	plugins: [
 		replace({
-			'process.env.API_URL': !production ? 'http://localhost:8081' : 'https://api-digi-test.herokuapp.com',
+			'process.env.API_URL': !production ? 'http://localhost:8080' : 'https://api-digi-test.herokuapp.com',
 		}),
 		svelte({
 			preprocess: sveltePreprocess({ sourceMap: !production }),
