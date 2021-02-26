@@ -1,0 +1,13 @@
+/node_modules/
+/public/build/
+
+.DS_Store
+
+# git
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
